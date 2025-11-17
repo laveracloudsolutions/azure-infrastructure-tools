@@ -1,0 +1,10 @@
+{
+  "images": [
+    {
+      "folder": ".",
+      "image_tag": "azure-infrastructure-tools:1.0.0",
+      "image_additionnal_tag": "azure-infrastructure-tools:latest",
+      "platforms": "linux/amd64"
+    }
+  ]
+}
