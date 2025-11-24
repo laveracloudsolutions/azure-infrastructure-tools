@@ -130,4 +130,7 @@ RUN if [ $(dpkg --print-architecture) = "arm64" ]; \
 RUN apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
+# Install azure-cost-cli
+RUN dotnet tool install --global azure-cost-cli
+
 
