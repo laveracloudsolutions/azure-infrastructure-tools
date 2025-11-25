@@ -133,4 +133,6 @@ RUN apt-get clean \
 # Install azure-cost-cli
 RUN dotnet tool install --global azure-cost-cli
 
+# Install npm check updates
+RUN npm i -g npm-check-updates dotenv dotenv-expand is-ci markdownlint-cli node-emoji yaml-lint
 

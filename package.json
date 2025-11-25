@@ -1,0 +1,28 @@
+{
+    "name": "azure-infrastructure-tools",
+    "repository": {},
+    "scripts": {},
+    "description": "",
+    "devDependencies": {
+        "@commitlint/cli": "^16.2.3",
+        "@commitlint/config-conventional": "^16.2.1",
+        "@inquirer/password": "0.0.17-alpha.0",
+        "commitizen": "^4.2.4",
+        "dotenv": "^16.0.0",
+        "dotenv-expand": "^8.0.3",
+        "husky": "^7.0.4",
+        "inquirer": "^8.2.2",
+        "is-ci": "^3.0.1",
+        "markdownlint-cli": "^0.31.1",
+        "node-emoji": "^1.11.0",
+        "npm-run-all": "^4.1.5",
+        "standard-version": "^9.3.2",
+        "yaml-lint": "^1.7.0"
+    },
+    "config": {},
+    "husky": {},
+    "standard-version": {},
+    "engines": {
+        "node": ">=16.13.0"
+    }
+}
